@@ -1,0 +1,128 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #f4f6f8;
+}
+
+/* Header */
+.site-header{
+  background: #110;
+  color: #fff;
+  padding: 14px 0;
+}
+
+.logo-img{
+  height: 42px;
+  width: auto;
+  border-radius: 50%;
+}
+
+.logo-text{
+  font-size: 22px;
+  font-weight: 700;
+}
+
+.logo-text span{
+  color: #ffa500;
+}
+
+/* IMPORTANT: cancel old grid if you had it */
+.products{
+  display: block;
+}
+
+/* Products Card */
+.product-card{
+  border-radius: 14px;
+  overflow: hidden;
+}
+
+/* .product-img{
+  width: 100%;
+  height: 150px;           /* يخلي الشكل ثابت */
+  object-fit: contain;     /* يمنع الصورة تتقص */
+  background: #fff;
+  padding: 8px;
+} */
+
+.price{
+  color: green;
+  font-weight: bold;
+}
+
+/* Buttons (لو بتحب نفس ستايلك القديم) */
+.buy{
+  background: rgb(255, 165, 0);
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.buy:hover{
+  color: black;
+  background-color: rgb(245, 180, 0);
+}
+
+.details{
+  background: #1e293b;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  padding: 8px;
+  cursor: pointer;
+  transition: .3s;
+}
+.details:hover{
+  background: #222;
+}
+
+/* Text ضبط عشان ميطلعش بالطول */
+.product-card h6{
+  font-size: 14px;
+  line-height: 1.25;
+  white-space: normal;
+  word-break: break-word;
+}
+
+/* 2 in a row on mobile already achieved by col-6 */
+
+/* 5 in a row on desktop */
+@media (min-width: 1200px){
+  .col-xl-custom{
+    flex: 0 0 20%;
+    max-width: 20%;
+  }
+}
+
+/* Footer */
+.site-footer{
+  padding: 16px;
+  background: #222;
+  text-align: center;
+  color: #fff;
+  margin-top: 40px;
+}
+
+.site-footer .social{
+  display: flex;
+  gap: 12px;
+  justify-content: center;
+  margin-top: 8px;
+}
+
+.site-footer .social a{
+  color: #fff;
+  text-decoration: none;
+  opacity: .9;
+}
+.site-footer .social a:hover{
+  opacity: 1;
+  text-decoration: underline;
+}
