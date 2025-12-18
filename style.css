@@ -23,7 +23,7 @@ body{
 }
 
 .logo-text{
-  font-size: 22px;
+  font-size: 30px;
   font-weight: 700;
 }
 
@@ -38,7 +38,7 @@ body{
 
 /* Products Card */
 .product-card{
-  border-radius: 14px;
+  border-radius: 20px;
   overflow: hidden;
 }
 
@@ -125,5 +125,4 @@ body{
 .site-footer .social a:hover{
   opacity: 1;
   text-decoration: underline;
-
 }
