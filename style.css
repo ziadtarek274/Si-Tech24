@@ -42,13 +42,13 @@ body{
   overflow: hidden;
 }
 
-/* .product-img{
+.product-img{
   width: 100%;
   height: 150px;           /* يخلي الشكل ثابت */
   object-fit: contain;     /* يمنع الصورة تتقص */
   background: #fff;
   padding: 8px;
-} */
+}
 
 .price{
   color: green;
@@ -125,4 +125,5 @@ body{
 .site-footer .social a:hover{
   opacity: 1;
   text-decoration: underline;
+
 }
