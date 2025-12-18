@@ -44,7 +44,7 @@ body{
 
 .product-img{
   width: 99%;
-  height: 250px;           /* يخلي الشكل ثابت */
+  height: 200px;           /* يخلي الشكل ثابت */
   border-radius: 25px;
   /* object-fit: contain;     يمنع الصورة تتقص */
   background: #fff;
@@ -127,3 +127,4 @@ body{
   opacity: 1;
   text-decoration: underline;
 }
+
