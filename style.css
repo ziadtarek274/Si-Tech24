@@ -43,9 +43,10 @@ body{
 }
 
 .product-img{
-  width: 100%;
-  height: 200px;        /* يخلي الشكل ثابت */
-  object-fit: contain;     /* يمنع الصورة تتقص */
+  width: 99%;
+  height: 250px;           /* يخلي الشكل ثابت */
+  border-radius: 25px;
+  /* object-fit: contain;     يمنع الصورة تتقص */
   background: #fff;
   padding: 8px;
 }
@@ -92,36 +93,6 @@ body{
 }
 
 /* 2 in a row on mobile already achieved by col-6 */
-@media (max-width: 576px){
-  .product-card h6{
-    font-size: 15px;   /* كان 14 */
-    line-height: 1.3;
-  }
-
-  .price{
-    font-size: 15px;
-  }
-
-  .product-card .btn{
-    font-size: 14px;
-    padding: 10px;
-  }
-} 
-.product-card{
-  border-radius: 16px;
-}
-
-.product-card:hover{
-  transform: translateY(-2px);
-  transition: .2s ease;
-}
-.buy{
-  margin-bottom: 6px;
-}
-.details{
-  opacity: 0.95;
-}
-
 
 /* 5 in a row on desktop */
 @media (min-width: 1200px){
@@ -130,7 +101,6 @@ body{
     max-width: 20%;
   }
 }
-
 
 /* Footer */
 .site-footer{
